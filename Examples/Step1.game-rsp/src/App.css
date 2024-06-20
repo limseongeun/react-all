@@ -1,0 +1,63 @@
+.box {
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+  padding: 12px;
+  border: 1px solid black;
+  text-align: center;
+}
+.img-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+.item-img {
+  width: 300px;
+}
+.main,
+.button-group {
+  display: flex;
+  justify-content: center;
+}
+
+.button-group {
+  margin-top: 10px;
+}
+
+.button-group button {
+  width: 100px;
+  height: 40px;
+  margin: 0 8px;
+}
+
+.result {
+  margin-top: 12px;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.winner {
+  border: 5px solid green;
+}
+
+.tie {
+  border: 5px solid black;
+}
+
+.loser {
+  border: 5px solid red;
+}
+
+.winner h2 {
+  color: green;
+}
+
+.tie h2 {
+  color: black;
+}
+
+.loser h2 {
+  color: red;
+}
