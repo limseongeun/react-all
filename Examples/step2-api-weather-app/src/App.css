@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+  background: url(https://img.freepik.com/free-vector/sky-background-for-video-conferencing_23-2148639325.jpg?size=626&ext=jpg&ga=GA1.1.44546679.1715817600&semt=ais_user)
+    no-repeat 0 0/100% 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.weather-box {
+  padding: 24px;
+  background: #ffffff60;
+  border: 2px solid white;
+  border-radius: 16px;
+}
+
+.weather-buttons {
+  margin-top: 20px;
+}
+
+.weather-buttons button {
+  margin: 0 4px;
+}
+
+.weather-buttons .btn.active {
+  background: aqua;
+  border-color: aqua;
+}
