@@ -40,13 +40,6 @@ export default class AppClass extends Component {
       computerStatus: this.judgementComputer(userStatusValue),
       result: this.final(userStatusValue),
     });
-    // setUserSelect(choice[userChoice]);
-    // let computerChoice = randomChoice();
-    // setComputerSelect(computerChoice);
-    // let userStatusValue = judgement(choice[userChoice], computerChoice);
-    // setUserStatus(userStatusValue);
-    // setComputerStatus(judgementComputer(userStatusValue));
-    // setResult(final(userStatusValue));
   };
 
   final = (userVal) => {
