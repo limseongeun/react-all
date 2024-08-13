@@ -1,0 +1,120 @@
+html,
+body,
+div,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  padding: 0;
+  margin: 0;
+}
+input,
+button {
+  appearance: none;
+}
+input,
+button {
+  border: 0;
+  background: #fff;
+}
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  min-width: 1208px;
+}
+
+/* nav */
+
+.nav-area {
+  padding: 32px;
+}
+
+.nav-login-area {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-login-area svg {
+  margin-right: 4px;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: center;
+  margin: 12px 0 40px;
+}
+
+.menu-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.menu-list {
+  display: flex;
+}
+
+.menu-list li {
+  margin: 0 20px;
+  list-style: none;
+}
+
+.search-area {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  padding: 2px 0;
+  border-bottom: 1px solid #000;
+}
+
+.search-area input {
+  width: 120px;
+  margin-left: 8px;
+  padding: 4px 12px;
+}
+
+/* procuct */
+.product-item-area {
+  background: #fff;
+  cursor: pointer;
+}
+
+.product-item-area:hover {
+  transform: scale(105%);
+}
+
+.product-detail-area .img-box {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.product-detail-area .product-detail-info > div {
+  margin-top: 16px;
+}
+
+.product-detail-area .product-detail-info select {
+  width: 200px;
+}
+
+.product-detail-area .product-detail-info button {
+  width: 100%;
+}
+
+/* login */
+.container.login-area {
+  width: 900px;
+  margin-top: 40px;
+}
