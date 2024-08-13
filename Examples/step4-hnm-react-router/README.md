@@ -32,7 +32,7 @@ npm start
 6. 로그아웃이 되면 상품 디테일 페이지를 볼 수 없다, 다시 로그인 페이지가 보인다.
 7. 로그인을 하면 로그아웃이 보이고 로그아웃을 하면 로그인이 보인다.
 8. 상품을 검색할 수 있다.
-9. 작업한 프로젝트를 배포한다. (배포시에는 'http://localhost:5000/~' 정보를 'https://my-json-server.typicode.com/<your-username>/<your-repo>/~' 형태로 변경 후 배포한다.)
+9. 작업한 프로젝트를 배포한다. (배포시에는 '`http://localhost:5000/...`' 정보를 '`https://my-json-server.typicode.com/<your-username>/<your-repo>/...`' 형태로 변경 후 배포한다.)
 
 ## 사용 npm
 
